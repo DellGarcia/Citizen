@@ -120,7 +120,7 @@
 
 **COMP_K** - Número de Empresas: Atividades financeiras, de seguros e serviços conexos - 2016	
 
-**COMP_L** - Número de Empresas: Actividades imobiliárias - 2016	
+**COMP_L** - Número de Empresas: Atividades imobiliárias - 2016	
 
 **COMP_M** - Número de Empresas: Atividades profissionais, científicas e técnicas - 2016	
 
@@ -138,7 +138,7 @@
 
 **COMP_T** - Número de Empresas: Serviços Domésticos - 2016
 
-**COMP_U** - Número de Empresas: Serviços Domésticos - 2016
+**COMP_U** - Número de Empresas: Instituições internacionais e outras extraterritoriais - 2016
 
 **HOTELS** - Número total de hotéis - 2019-03	
 
@@ -160,7 +160,7 @@
 
 **Motorcycles** - Número total de motocicletas, scooters, ciclomotores - 2019-01	
 
-**Wheeled_tractor** - Número total de motocicletas, scooters, ciclomotores - 2019-01
+**Wheeled_tractor** - Número total de tratores de rodas - 2019-01
 
 **UBER** - 1 se UBER 2019-05	
 
