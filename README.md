@@ -2,7 +2,7 @@
 
 # Cidades Brasileiras
 
-## Repositório para desenvolvimto de um Datawarehouse e aplicação de técnicas de Mineração de dados (Datamining) usando recursos de Inteligência Artificial, e Estatítica gerando informações em níveis estratégicos.
+## Repositório para desenvolvimento de um Datawarehouse e aplicação de técnicas de Mineração de dados (Datamining) usando recursos de Inteligência Artificial, e Estatítica gerando informações em níveis estratégicos.
 
 ### Foi utilizado um dataset de cidades brasileiras com uma coleção de 81 atributos de cidades brasileiras
 
