@@ -1,8 +1,9 @@
 from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy import UniqueConstraint
 from sqlalchemy.orm import declarative_base
 
 def create_database():
-    engine = create_engine('postgresql://postgres:123456@localhost:5432/citizen', echo=True)
+    engine = create_engine('postgresql://postgres:123456@localhost:5432/citizen2', echo=True)
 
     base = declarative_base()
 
@@ -11,8 +12,86 @@ def create_database():
     base.metadata.create_all(engine)
 
 def declare_models(base):
-     class City (base):
+    class City (base):
         __tablename__ = 'tb_city'
 
         id = Column(Integer, primary_key=True)
         name = Column(String(50))
+        cod_ibge = Column(Integer, unique=True)
+        ibge_res_bras = Column(Integer)
+        ibge_res_estr = Column(Integer)
+        ibge_du_urban = Column(Integer)
+        ibge_du_rural = Column(Integer)
+        ibge_1 = Column(Integer)
+        ibge_1_4 = Column(Integer)
+        ibge_5_9 = Column(Integer)
+        ibge_10_14 = Column(Integer)
+        ibge_15_59 = Column(Integer)
+        ibge_60 = Column(Integer)
+        ibge_planted_area = Column(Integer)
+        ibge_crop_production = Column(Integer) 
+        idhm_ranking_2010 = Column(Integer)
+        idhm = Column(Integer)
+        idhm_renda = Column(Integer)
+        idhm_longevidade = Column(Integer) 
+        idhm_educacao = Column(Integer)
+        longitude = Column(Integer)
+        latitude = Column(Integer)
+        alt = Column(Integer)
+        pay_tv = Column(Integer)
+        fixed_phones = Column(Integer)
+        area = Column(Integer)
+        regiao_tur = Column(String(100))
+        categoria_tur = String(String(1))
+        estimated_pop = Column(Integer)
+        rural_urban = Column(String(50))
+        gva_agropec = Column(Integer)
+        gva_industry = Column(Integer)
+        gva_services = Column(Integer)
+        gva_public = Column(Integer)
+        taxes = Column(Integer)
+        gdp = Column(Integer)
+        pop_gdp = Column(Integer)
+        gdp_capita = Column(Integer)
+        gva_main = Column(String(100))
+        mun_expendit = Column(Integer)
+        comp_tot = Column(Integer)
+        comp_a = Column(Integer)
+        comp_b = Column(Integer)
+        comp_c = Column(Integer)
+        comp_d = Column(Integer)
+        comp_e = Column(Integer)
+        comp_f = Column(Integer)
+        comp_g = Column(Integer)
+        comp_h = Column(Integer)
+        comp_i = Column(Integer)
+        comp_j = Column(Integer)
+        comp_k = Column(Integer)
+        comp_l = Column(Integer)
+        comp_m = Column(Integer)
+        comp_n = Column(Integer)
+        comp_o = Column(Integer)
+        comp_p = Column(Integer)
+        comp_q = Column(Integer)
+        comp_r = Column(Integer)
+        comp_s = Column(Integer)
+        comp_t = Column(Integer)
+        comp_u = Column(Integer)
+        pr_agencies = Column(Integer)
+        pu_agencies = Column(Integer)
+        pr_bank = Column(Integer)
+        pu_bank = Column(Integer)
+        cars =  Column(Integer)
+        motorcycles = Column(Integer)
+        wheeled_tractor = Column(Integer)
+        uber = Column(Integer)
+        mac = Column(Integer)
+        wal_mart = Column(Integer)
+        post_offices = Column(Integer)
+
+    class UF (base):
+        __tablename__ = 'tb_state'
+
+        id = Column(Integer, primary_key=True)
+        name = Column(String(50))
+        cod_ibge = Column(Integer, unique=True)

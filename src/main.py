@@ -3,6 +3,6 @@ from database.db import create_database
 
 def main():
     create_database()
-    print(city_dataset)
+    print(city_dataset.tail(10))
 
 main()
