@@ -1,8 +1,11 @@
+import database.db as db
+from sqlachemy import create_engine
 from collector import city_dataset
-from database.db import create_database
+
+engine = create_engine('postgresql://postgres:123456@localhost:5432/citizen', echo=True)
 
 def main():
-    create_database()
-    print(city_dataset.tail(10))
+    city_dataset.columns = city_dataset.columns.str.lower()
+    city_dataset.to_sql('tb_city', con=db.engine, index_label='id')
 
 main()
