@@ -193,3 +193,5 @@ cython_debug/
 
 bytecodes
 bytecode
+
+*.xlsx
