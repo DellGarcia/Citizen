@@ -1,8 +1,13 @@
-# Citizen
+# 🏡 Citizen 🏞️
 
-# Cidades Brasileiras
+<p align="justify">
+  Citizen surgiu no desenvolvimento do Projeto Integrador do 3º Semestre do curso de Big Data para Negócios na Fatec Ipiranga, o objetivo é, a partir de uma base de dados referentes as cidades do Brasil, aplicar técnicas de Mineração de dados (Datamining) usando recursos de Inteligência Artificial e Estatítica gerando informações em níveis estratégicos.
+</p>
 
-## Repositório para desenvolvimento de um Datawarehouse e aplicação de técnicas de Mineração de dados (Datamining) usando recursos de Inteligência Artificial, e Estatítica gerando informações em níveis estratégicos.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/49599535/175329994-b4c54505-7503-4b71-8f8f-bbbffe38b310.png" />
+</p>
+
 
 ### Foi utilizado um dataset de cidades brasileiras com uma coleção de 81 atributos de cidades brasileiras
 
