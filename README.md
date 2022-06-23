@@ -21,11 +21,16 @@ O dataset está disponível em: https://www.kaggle.com/datasets/crisparada/brazi
 
 ## Tecnologias 🖥️
 
-### Banco de Dados: Postgres
-### Linguage de Programação: Python
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="100"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" width="100" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="100"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="100"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="100"/>         
+<p>  
 
 
-### Autores
+## Autores ✨
 
 | [<img src="https://avatars.githubusercontent.com/u/49599535?v=4" width=115><br><sub>Lucas Del Puerto Garcia</sub>](https://github.com/DellGarcia) |  [<img src="https://avatars.githubusercontent.com/u/4665684?v=4" width=115><br><sub>Shyrles Monteiro</sub>](https://github.com/Shyrles) |  [<img src="https://avatars.githubusercontent.com/u/91036903?v=4" width=115><br><sub>Luciana Liranco</sub>](https://github.com/LuhLirancos) | [<img src="https://avatars.githubusercontent.com/u/91470759?v=4" width=115><br><sub>Ariane Cristina Costa Dias</sub>](https://github.com/arianeccdias) | [<img src="https://avatars.githubusercontent.com/u/90868639?v=4" width=115><br><sub>Francisco Pereira dos Santos</sub>](https://github.com/fpereirasantos) | [<img src="https://avatars.githubusercontent.com/u/35076536?v=4" width=115><br><sub>Marina Gama Cubas da Silva</sub>](https://github.com/marinagamacubas) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
